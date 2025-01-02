@@ -1,0 +1,1 @@
+This example demonstrates a common pitfall in F# when working with mutable variables.  Because F# passes mutable variables by reference, modifying them within a function affects the original variables.  The solution shows how to avoid this by using a different approach.
